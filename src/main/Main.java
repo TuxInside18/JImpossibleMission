@@ -16,5 +16,7 @@ public class Main {
 
         window.setLocationRelativeTo(null); // Not specify the location of the window
         window.setVisible(true);
+
+        gamePanel.startGameThread();
     }
 }
